@@ -6,7 +6,6 @@ import MainPage from '../components/MainPage';
 
 import './App.css';
 
-
 const mapStateToProps = (state) => {
   return {
     searchField: state.searchRobots.searchField,
@@ -30,3 +29,4 @@ class App extends Component {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
